@@ -10,13 +10,14 @@ import RoadMap from "../components/RoadMap";
 const Home = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Benefits />
       <Collabration />
       <Services />
       <Pricing />
       <RoadMap />
+      {/* <Footer /> */}
     </div>
   );
 };

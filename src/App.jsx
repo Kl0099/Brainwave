@@ -10,10 +10,12 @@ import RoadMap from "./components/RoadMap";
 import Services from "./components/Services";
 import Home from "./Pages/Home";
 import Test from "./test";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
       <div className=" pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <Header />
         <Routes>
           <Route
             path="/"
@@ -24,6 +26,7 @@ function App() {
             element={<Test />}
           ></Route>
         </Routes>
+        <Footer />
       </div>
       <ButtonGradient />
     </>

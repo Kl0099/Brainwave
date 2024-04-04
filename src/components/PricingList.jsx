@@ -2,6 +2,8 @@ import React from "react";
 import { pricing } from "../constants";
 import Button from "./Button";
 import { check } from "../assets";
+import { Gradient } from "./design/Hero";
+import { GradientLight } from "./design/Benefits";
 
 const PricingList = () => {
   return (
