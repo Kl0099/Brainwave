@@ -13,6 +13,7 @@ const Notification = ({ className, title }) => {
         src={notification1}
         alt="img"
         width={62}
+        className=" rounded-xl"
         height={62}
       />
       <div className=" flex-1 ">
@@ -28,11 +29,12 @@ const Notification = ({ className, title }) => {
                 <img
                   src={item}
                   alt="item"
-                  className=" w-full"
+                  className=" rounded-xl w-full"
                 />
               </li>
             ))}
           </ul>
+          <h5 className=" text-xs text-n-3">1m ago</h5>
         </div>
       </div>
     </div>
